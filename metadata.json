@@ -1,0 +1,6 @@
+{
+  "name": "Corn Island Insider",
+  "description": "Discover hidden beaches, authentic seafood shacks, reef adventures, and practical local tips across Big and Little Corn Island.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

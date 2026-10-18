@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corn Island Insider</title>
+    <meta name="description" content="Discover hidden beaches, authentic seafood shacks, reef adventures, and practical local tips across Big and Little Corn Island." />
+    <meta property="og:title" content="Corn Island Insider" />
+    <meta property="og:description" content="Discover hidden beaches, authentic seafood shacks, reef adventures, and practical local tips across Big and Little Corn Island." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Ensure window.fetch is writable so browser extension executors can intercept without TypeError
+      (function() {
+        try {
+          var _origFetch = window.fetch;
+          var _fetch = typeof _origFetch === 'function' ? _origFetch.bind(window) : _origFetch;
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function() {
+              return _fetch;
+            },
+            set: function(newFetch) {
+              _fetch = newFetch;
+            }
+          });
+        } catch (e) {}
+
+        // Prevent external extension errors from breaking the page
+        window.addEventListener('error', function(e) {
+          if (e.filename && e.filename.indexOf('chrome-extension://') !== -1) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+        }, true);
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#F8F6F0] text-[#1E293B] antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

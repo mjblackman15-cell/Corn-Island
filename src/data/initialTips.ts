@@ -1,0 +1,58 @@
+import { AppTip } from '../types';
+
+export const INITIAL_APP_TIPS: AppTip[] = [
+  {
+    id: 'tip-donations-support',
+    title: 'Supporting This Free & Independent App',
+    category: 'App Guide',
+    content: 'Corn Island Insider is 100% ad-free and maintained by travelers and local island guides. If this directory helped you discover hidden lobster shacks, reef dives, or navigate via Google Maps, you can leave a small donation ($3 coconut, $5 Toña beer) using the "Donate" button to support server costs and map updates!',
+    author: 'Corn Island Insider Team',
+    date: 'Updated today',
+    votes: 48,
+  },
+  {
+    id: 'tip-google-maps',
+    title: 'Instant GPS Navigation with Google Maps',
+    category: 'App Guide',
+    content: 'Tap the "Google Maps" button on any spot card or in the spot details modal to launch official turn-by-turn walking or taxi navigation directly in your Google Maps app with pin-point island coordinates.',
+    author: 'Corn Island Insider Team',
+    date: 'Updated today',
+    votes: 34,
+  },
+  {
+    id: 'tip-offline-caching',
+    title: 'Using This Directory Offline While Exploring',
+    category: 'Offline & GPS',
+    content: 'Internet and cellular data can be patchy on the south trails of Big Corn and throughout Little Corn. Keep this web app tab open in your mobile browser—all spots, coordinates, and tips remain cached and searchable offline!',
+    author: 'Marcus & Sofia',
+    date: '3 days ago',
+    votes: 28,
+  },
+  {
+    id: 'tip-big-corn-taxis',
+    title: 'Fixed Rate Taxis on Big Corn Island',
+    category: 'Island Logistics',
+    content: 'Taxis anywhere along the paved ring road on Big Corn cost a fixed 20 to 30 Cordobas (approx $0.75 - $1 USD) per person during the day. Simply hail one from anywhere and tell them the spot name or show them the Google Maps pin.',
+    author: 'Captain Devon',
+    date: '1 week ago',
+    votes: 45,
+  },
+  {
+    id: 'tip-little-corn-panga',
+    title: 'Panga Sea Crossing Preparation',
+    category: 'Island Logistics',
+    content: 'The 30-minute panga boat crossing between Big Corn and Little Corn departs twice daily (typically 10:00 AM and 4:30 PM from Big Corn). Arrive 30 minutes early, store electronics in waterproof dry sacks, and sit toward the middle for the smoothest ride.',
+    author: 'Elena R.',
+    date: '2 weeks ago',
+    votes: 39,
+  },
+  {
+    id: 'tip-cash-atms',
+    title: 'ATM Guidance: Cash is King',
+    category: 'Local Customs',
+    content: 'Little Corn Island has ZERO ATMs and most local eateries and pangas only accept Cordobas or clean USD bills. Always withdraw enough cash from the Banpro or BAC ATMs in Big Corn before boarding the panga.',
+    author: 'Mateo Sanchez',
+    date: '2 weeks ago',
+    votes: 52,
+  },
+];
